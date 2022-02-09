@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637797737694871307
-    m_Hash: 2260446868
+      ticks: 637798667855810271
+    m_Hash: 1481324690
   m_LockFileStatus:
     m_FilePath: "C:/Users/\u039C\u03B1\u03C1\u03BA\u03BF\u03C2/Desktop/Escaping-Death/Escaping
       Death Game/Packages/packages-lock.json"
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637797737694981294
-    m_Hash: 540712229
+      ticks: 637798667855810271
+    m_Hash: 2690315413
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
