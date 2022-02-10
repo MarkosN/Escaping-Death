@@ -53,9 +53,10 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Traps\TrapDamage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraShake.cs" />
-    <Compile Include="Assets\Scripts\Traps\TrapDamage.cs" />
+    <Compile Include="Assets\Scripts\Traps\TrapsWithMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -710,6 +711,14 @@
       <Project>{BA87584E-7549-4582-694B-473942FA5E94}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{51CB59A5-2A27-55AE-1EDC-337D30C346DB}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{67DFF393-E4D7-6216-CA58-529D48495177}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
       <Project>{940042DA-9F78-E000-509D-36449A97116B}</Project>
       <Name>Unity.2D.Animation.Triangle.Runtime</Name>
@@ -745,14 +754,6 @@
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
       <Project>{0155199F-83AA-BE93-AE2D-9E33311282B1}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{67DFF393-E4D7-6216-CA58-529D48495177}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{51CB59A5-2A27-55AE-1EDC-337D30C346DB}</Project>
-      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
