@@ -54,9 +54,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Traps\TrapDamage.cs" />
+    <Compile Include="Assets\Scripts\Traps\TrapsWithMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraShake.cs" />
-    <Compile Include="Assets\Scripts\Traps\TrapsWithMovement.cs" />
+    <Compile Include="Assets\Scripts\Traps\TrapsCircles.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
