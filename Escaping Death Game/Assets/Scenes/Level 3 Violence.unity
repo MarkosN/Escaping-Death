@@ -3783,7 +3783,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1513478092}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.09, y: 2, z: 13.601907}
+  m_LocalPosition: {x: -18.09, y: 1.5, z: 13.601907}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 2085590820}
@@ -4786,6 +4786,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 731632387}
     m_Modifications:
+    - target: {fileID: 1958361401182195534, guid: 841972df28b4671459503dcfe36176ca, type: 3}
+      propertyPath: trapSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958361401182195569, guid: 841972df28b4671459503dcfe36176ca, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1958361401182195571, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: playerRB
       value: 
@@ -4846,6 +4854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Circle Trap
       objectReference: {fileID: 0}
+    - target: {fileID: 1958361401552070425, guid: 841972df28b4671459503dcfe36176ca, type: 3}
+      propertyPath: trapSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1958361401552070426, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: playerRB
       value: 
@@ -4860,11 +4872,15 @@ PrefabInstance:
       objectReference: {fileID: 1670632128}
     - target: {fileID: 1958361401552070431, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1958361401947521554, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958361401947522540, guid: 841972df28b4671459503dcfe36176ca, type: 3}
+      propertyPath: trapSpeed
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1958361401947522541, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: playerRB
@@ -4878,6 +4894,10 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1670632128}
+    - target: {fileID: 1958361402970091458, guid: 841972df28b4671459503dcfe36176ca, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1958361402970091484, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: playerRB
       value: 
@@ -4890,5 +4910,9 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1670632128}
+    - target: {fileID: 1958361402970091487, guid: 841972df28b4671459503dcfe36176ca, type: 3}
+      propertyPath: trapSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 841972df28b4671459503dcfe36176ca, type: 3}
