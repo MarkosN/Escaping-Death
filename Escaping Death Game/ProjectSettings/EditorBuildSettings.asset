@@ -6,6 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PlayerTestScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Level 1 Treachery.unity
+    guid: 49f8cd0d8cfe4c7479e07c2647af706d
+  - enabled: 1
+    path: Assets/Scenes/Level 2 Fraud.unity
+    guid: d80470c8a9316864bbb9a59ce556232a
+  - enabled: 1
+    path: Assets/Scenes/Level 3 Violence.unity
+    guid: da7069ec067cd974a9a052a6b12e437c
+  - enabled: 1
+    path: Assets/Scenes/Level 4 Heresy.unity
+    guid: 11bb3c070ed466d45882bf1fb2b1c722
+  - enabled: 1
+    path: Assets/Scenes/Level 5 Anger.unity
+    guid: fcef5200552386c4dad555cb5b0d794e
+  - enabled: 1
+    path: Assets/Scenes/Level 6 Greed.unity
+    guid: f062ffa023bc7ab4fb4205eeb421307e
+  - enabled: 1
+    path: Assets/Scenes/Level 7 Gluttony.unity
+    guid: c749e5c43d2ee7943a6674b492507be3
+  - enabled: 1
+    path: Assets/Scenes/Level 8 Lust.unity
+    guid: 455a2fea52c14544b9b09f57539f83a6
+  - enabled: 1
+    path: Assets/Scenes/Level 9 Limbo.unity
+    guid: 9023310e35455a64ba4076d22f1100c0
   m_configObjects: {}
