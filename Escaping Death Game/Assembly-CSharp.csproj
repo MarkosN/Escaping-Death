@@ -53,12 +53,13 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Traps\TrapDamage.cs" />
-    <Compile Include="Assets\Scripts\Traps\TrapsWithMovement.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Traps\TrapsCircles.cs" />
-    <Compile Include="Assets\Scripts\Camera\CameraShake.cs" />
     <Compile Include="Assets\Scripts\Scenes\ExitDoors.cs" />
+    <Compile Include="Assets\Scripts\Traps&amp;Platforms\TrapDamage.cs" />
+    <Compile Include="Assets\Scripts\Traps&amp;Platforms\TrapsWithMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Traps&amp;Platforms\TrapsCircles.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraShake.cs" />
+    <Compile Include="Assets\Scripts\Traps&amp;Platforms\ElevatorPlatform.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
