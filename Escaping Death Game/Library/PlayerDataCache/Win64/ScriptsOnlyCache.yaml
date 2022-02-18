@@ -92,9 +92,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4278}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5752}
+      Script: {instanceID: 5754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -165,9 +165,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4278}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5752}
+      Script: {instanceID: 5754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -238,11 +238,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4278}
     - Class: 114
-      Script: {instanceID: 4494}
+      Script: {instanceID: 4496}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5752}
+      Script: {instanceID: 5754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -317,9 +317,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4278}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5752}
+      Script: {instanceID: 5754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -394,9 +394,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4278}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5752}
+      Script: {instanceID: 5754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -469,9 +469,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4278}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5752}
+      Script: {instanceID: 5754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -540,11 +540,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4278}
     - Class: 114
-      Script: {instanceID: 4494}
+      Script: {instanceID: 4496}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5752}
+      Script: {instanceID: 5754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -611,11 +611,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4278}
     - Class: 114
-      Script: {instanceID: 4494}
+      Script: {instanceID: 4496}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5752}
+      Script: {instanceID: 5754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -686,11 +686,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4278}
     - Class: 114
-      Script: {instanceID: 4494}
+      Script: {instanceID: 4496}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 5452}
     - Class: 114
-      Script: {instanceID: 5752}
+      Script: {instanceID: 5754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -702,6 +702,8 @@ ScriptsOnlyBuild:
     - Class: 213
       Script: {instanceID: 0}
     - Class: 232
+      Script: {instanceID: 0}
+    - Class: 251
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -1264,6 +1266,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: 
     className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ElevatorPlatform
   - hash:
       serializedVersion: 2
       Hash: 87cef3c82381dc586f6772c3e27561b6
