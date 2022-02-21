@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level 3 Background Platform
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 21300000, guid: 66c4d5491bad72349a4c1780866fd7c0, type: 3}
-  m_Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+  m_Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
   m_Transform:
     e00: 1
     e01: 0
