@@ -10879,6 +10879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8110188891775911921, guid: b67d6cfec7889ee4494137c6c75636fc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b4daa559cf1aec46aeac9d3ad9caacd, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b67d6cfec7889ee4494137c6c75636fc, type: 3}
 --- !u!4 &280002727 stripped
@@ -11353,7 +11357,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.947332, y: -0.09549165, z: -5.876911}
+  m_LocalPosition: {x: -11.947333, y: -0.09549165, z: -5.876911}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 891939364}
@@ -11491,6 +11495,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8110188891775911921, guid: b67d6cfec7889ee4494137c6c75636fc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b4daa559cf1aec46aeac9d3ad9caacd, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b67d6cfec7889ee4494137c6c75636fc, type: 3}
 --- !u!4 &597903087 stripped
@@ -14851,7 +14859,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169710089}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.947332, y: -0.09549165, z: -5.876911}
+  m_LocalPosition: {x: -11.947333, y: -0.09549165, z: -5.876911}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1135152230}
@@ -15375,6 +15383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8110188891775911921, guid: b67d6cfec7889ee4494137c6c75636fc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b4daa559cf1aec46aeac9d3ad9caacd, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b67d6cfec7889ee4494137c6c75636fc, type: 3}
 --- !u!4 &1906442612 stripped
@@ -16828,6 +16840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torch 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8110188891775911921, guid: b67d6cfec7889ee4494137c6c75636fc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b4daa559cf1aec46aeac9d3ad9caacd, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b67d6cfec7889ee4494137c6c75636fc, type: 3}
 --- !u!4 &8110188891924182679 stripped
