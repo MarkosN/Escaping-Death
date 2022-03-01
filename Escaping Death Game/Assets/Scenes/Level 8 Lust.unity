@@ -659,7 +659,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00021730363, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -670,7 +670,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.99956536, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &184520545
 SpriteRenderer:
@@ -19218,6 +19218,14 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1670632128}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Size.x
+      value: 0.98077
+      objectReference: {fileID: 0}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.00005042553
+      objectReference: {fileID: 0}
     - target: {fileID: 3001385031493497498, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -20087,7 +20095,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0018833876, y: 0.001307413}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -20098,7 +20106,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.9962332, y: 0.99738514}
   m_EdgeRadius: 0
 --- !u!212 &1317891432
 SpriteRenderer:
@@ -20234,6 +20242,14 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1670632128}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9810103
+      objectReference: {fileID: 0}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.00016915798
+      objectReference: {fileID: 0}
     - target: {fileID: 3001385031493497498, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -22038,7 +22054,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0003414005, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -22049,7 +22065,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.99931717, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &1814066748
 SpriteRenderer:
@@ -23554,7 +23570,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00068728626, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -23565,7 +23581,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.99481964, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &2063582793
 SpriteRenderer:
@@ -23679,7 +23695,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0015925616}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -23690,7 +23706,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.99681485}
   m_EdgeRadius: 0
 --- !u!212 &2071340985
 SpriteRenderer:
@@ -23869,7 +23885,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.000082463026, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -23880,7 +23896,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.9998351, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &2129737233
 SpriteRenderer:

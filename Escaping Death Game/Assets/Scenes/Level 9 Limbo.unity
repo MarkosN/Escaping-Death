@@ -934,7 +934,7 @@ GameObject:
   - component: {fileID: 123811850}
   - component: {fileID: 123811849}
   m_Layer: 0
-  m_Name: Stable Fire 7
+  m_Name: Stable Fire 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -984,7 +984,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.0017687976}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -995,7 +995,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.9964624}
   m_EdgeRadius: 0
 --- !u!212 &123811851
 SpriteRenderer:
@@ -1216,7 +1216,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0010209084, y: -0.0005449243}
+  m_Offset: {x: 0.00008249283, y: -0.0016603544}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1227,7 +1227,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0016642, y: 0.21519929}
+  m_Size: {x: 0.99945736, y: 0.21296842}
   m_EdgeRadius: 0
 --- !u!212 &142742180
 SpriteRenderer:
@@ -1977,7 +1977,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1958361401520085316, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.2339973
+      value: -8.03
       objectReference: {fileID: 0}
     - target: {fileID: 1958361401520085316, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2560,7 +2560,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.0025820285}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2571,7 +2571,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.994836}
   m_EdgeRadius: 0
 --- !u!212 &659897349
 SpriteRenderer:
@@ -2699,6 +2699,14 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1670632128}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Size.x
+      value: 0.97719824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.00001257658
+      objectReference: {fileID: 0}
     - target: {fileID: 3001385031493497498, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -4255,7 +4263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1958361401520085316, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.2439976
+      value: -8.04
       objectReference: {fileID: 0}
     - target: {fileID: 1958361401520085316, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7780,7 +7788,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0029914975, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7791,7 +7799,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.994017, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &813330853
 SpriteRenderer:
@@ -8159,7 +8167,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.0043299794}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8170,7 +8178,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.99134004}
   m_EdgeRadius: 0
 --- !u!212 &853296746
 SpriteRenderer:
@@ -21859,6 +21867,14 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1670632128}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9789072
+      objectReference: {fileID: 0}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0017570257
+      objectReference: {fileID: 0}
     - target: {fileID: 3001385031493497498, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -22123,7 +22139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1958361401520085316, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.2439976
+      value: -8.04
       objectReference: {fileID: 0}
     - target: {fileID: 1958361401520085316, guid: 841972df28b4671459503dcfe36176ca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22322,6 +22338,14 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1670632128}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9818928
+      objectReference: {fileID: 0}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0020706803
+      objectReference: {fileID: 0}
     - target: {fileID: 3001385031493497498, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
       propertyPath: m_SortingOrder
       value: -1
@@ -23356,7 +23380,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.00052928925, y: -0.00078624487}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -23367,7 +23391,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.9989414, y: 0.9984275}
   m_EdgeRadius: 0
 --- !u!212 &1652132902
 SpriteRenderer:
@@ -27016,7 +27040,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0005823374, y: -0.0022442192}
+  m_Offset: {x: 0.000054642558, y: -0.0023467094}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -27027,7 +27051,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0050659, y: 0.21494654}
+  m_Size: {x: 0.99936676, y: 0.21474156}
   m_EdgeRadius: 0
 --- !u!212 &1809582192
 SpriteRenderer:
@@ -27109,7 +27133,7 @@ GameObject:
   - component: {fileID: 1861063025}
   - component: {fileID: 1861063024}
   m_Layer: 0
-  m_Name: Stable Fire 5
+  m_Name: Stable Fire 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27160,7 +27184,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.00023674965, y: -0.0075185895}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -27171,7 +27195,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.9995265, y: 0.9849628}
   m_EdgeRadius: 0
 --- !u!212 &1861063026
 SpriteRenderer:
@@ -27334,7 +27358,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.002425298}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -27345,7 +27369,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.9951494}
   m_EdgeRadius: 0
 --- !u!212 &1948234325
 SpriteRenderer:
@@ -27416,7 +27440,7 @@ GameObject:
   - component: {fileID: 2025039999}
   - component: {fileID: 2025039998}
   m_Layer: 0
-  m_Name: Stable Fire 6
+  m_Name: Stable Fire 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27466,7 +27490,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.0003554374}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -27477,7 +27501,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.99928916}
   m_EdgeRadius: 0
 --- !u!212 &2025040000
 SpriteRenderer:
@@ -27608,7 +27632,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00009268522, y: -0.011929072}
+  m_Offset: {x: 0.00017216802, y: -0.011929072}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -27619,7 +27643,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.99972117, y: 0.23255824}
+  m_Size: {x: 0.99778444, y: 0.23255824}
   m_EdgeRadius: 0
 --- !u!212 &2105371744
 SpriteRenderer:
@@ -27747,6 +27771,14 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1670632128}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9815419
+      objectReference: {fileID: 0}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.00039459765
+      objectReference: {fileID: 0}
     - target: {fileID: 3001385031493497498, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
       propertyPath: m_SortingOrder
       value: -1

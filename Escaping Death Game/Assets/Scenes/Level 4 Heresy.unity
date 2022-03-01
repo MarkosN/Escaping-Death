@@ -7470,6 +7470,14 @@ PrefabInstance:
       propertyPath: cameraShake
       value: 
       objectReference: {fileID: 1670632128}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9905994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3001385031493497497, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.004700303
+      objectReference: {fileID: 0}
     - target: {fileID: 3001385031493497498, guid: e8567ade2a9bec74eb2c1562e075e1cd, type: 3}
       propertyPath: m_SortingOrder
       value: -1
