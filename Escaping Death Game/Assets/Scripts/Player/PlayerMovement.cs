@@ -17,11 +17,13 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 	private bool grounded;                // If the player is grounded or not
 	private bool faceRightSide = true;    // Which side the player is facing (starting with the right side)
 	private bool jump = false;            // In order to check when the players can jump
-	private bool doubleJump = false;      // In order to check when the players can double jump
+	private bool dash = false;            // In order to check when the players can dash
 
 	private Vector3 velocity = Vector3.zero; // Player's velocity
 	public LayerMask ground;                 // Everything is ground for the player except from the character
 	public Transform jumpCheck;              // Checking if the player can jump
+
+	public Animator anim;                    // Cowboy's animator that contains all the necessary animations
 
 	private void Awake()
 	{
@@ -33,6 +35,8 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 
 		horizontalMove = Input.GetAxisRaw("Horizontal") * playerSpeed; // X axis movement
 
+		anim.SetFloat("Speed", Mathf.Abs(horizontalMove)); // Play the speed animation of the player
+
 		if (Input.GetButtonDown("Jump"))
 		{
 			if (grounded) // Player jumps
@@ -40,23 +44,33 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 				player.AddForce(new Vector2(0f, jumpForce)); // The jump force will be on Y axis
 
 				grounded = false;
-				doubleJump = true;
+				dash = true;
+
+				anim.SetBool("IsJumping", true); // Play the jumping animation of the player
+				anim.SetBool("DashOn", false);
+				StartCoroutine(DisableJumpAnim());
 			}
 
-			else if (!grounded && doubleJump == true) // The player double jumps
+			else if (!grounded && dash == true) // The player double jumps
 			{
 				if (faceRightSide)
                 {
 					player.AddForce(new Vector2(dashForce, 0f)); // The dash force will be on X axis
+					anim.SetBool("DashOn", true); // Play the dash animation of the player
+					anim.SetBool("IsJumping", false);
+					StartCoroutine(DisableDashAnim());
 				}
 
 				else if (!faceRightSide)
                 {
 					player.AddForce(new Vector2(-dashForce, 0f)); // The dash force will be on X axis
+					anim.SetBool("DashOn", true);
+					anim.SetBool("IsJumping", false);
+					StartCoroutine(DisableDashAnim());
 				}
 				
 				grounded = false;
-				doubleJump = false;
+				dash = false;
 			}
 		}
 	}
@@ -109,5 +123,17 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+	}
+
+	IEnumerator DisableJumpAnim() // In order to be able to disable the jump animation as it is wanted to be only in the start of the jump
+    {
+		yield return new WaitForSeconds(1f);
+		anim.SetBool("IsJumping", false);
+	}
+
+	IEnumerator DisableDashAnim() // In order to be able to disable the dash animation as it is wanted to be only in the start of the dash
+	{
+		yield return new WaitForSeconds(1f);
+		anim.SetBool("DashOn", false);
 	}
 }
