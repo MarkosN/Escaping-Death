@@ -25,6 +25,11 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 
 	public Animator anim;                    // Cowboy's animator that contains all the necessary animations
 
+	// Particle (Dust) effects in order to strengthen the visually part of the players when they jump, dash and flip the player
+	public ParticleSystem jumpDustEffect; // Jump effect
+	public ParticleSystem dashDustEffect; // Dash effect
+	public ParticleSystem flipDustEffect; // Flip effect
+
 	private void Awake()
 	{
 		player = GetComponent<Rigidbody2D>();
@@ -49,6 +54,7 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 				anim.SetBool("IsJumping", true); // Play the jumping animation of the player
 				anim.SetBool("DashOn", false);
 				StartCoroutine(DisableJumpAnim());
+				JumpDustOn();
 			}
 
 			else if (!grounded && dash == true) // The player double jumps
@@ -59,6 +65,7 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 					anim.SetBool("DashOn", true); // Play the dash animation of the player
 					anim.SetBool("IsJumping", false);
 					StartCoroutine(DisableDashAnim());
+					DashDustOn();
 				}
 
 				else if (!faceRightSide)
@@ -67,6 +74,7 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 					anim.SetBool("DashOn", true);
 					anim.SetBool("IsJumping", false);
 					StartCoroutine(DisableDashAnim());
+					DashDustOn();
 				}
 				
 				grounded = false;
@@ -107,11 +115,13 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 			if (move > 0 && !faceRightSide)
 			{
 				PlayerFlip(); // Fliping player's side to right
+				FlipDustOn();
 			}
 			// Changing where the player looks to left
 			else if (move < 0 && faceRightSide)
 			{
 				PlayerFlip(); // Fliping player's side to left
+				FlipDustOn();
 			}
 		}
 	}
@@ -135,5 +145,20 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 	{
 		yield return new WaitForSeconds(1f);
 		anim.SetBool("DashOn", false);
+	}
+
+	void JumpDustOn() // Enabling Jump Effect
+    {
+		jumpDustEffect.Play();
+    }
+
+	void DashDustOn() // Enabling Dash Effect
+	{
+		dashDustEffect.Play();
+	}
+
+	void FlipDustOn() // Enabling Flip Effect
+	{
+		flipDustEffect.Play();
 	}
 }
