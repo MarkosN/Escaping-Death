@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: d2d4509aff0025444886e56fe7208ad3
   - enabled: 1
+    path: Assets/Scenes/Story_Start.unity
+    guid: 08225a9ed4b41de43800422320c3c65c
+  - enabled: 1
     path: Assets/Scenes/Level 1 Treachery.unity
     guid: 49f8cd0d8cfe4c7479e07c2647af706d
   - enabled: 1
