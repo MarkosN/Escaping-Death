@@ -56,6 +56,7 @@
     <Compile Include="Assets\Scripts\UI\DisableDarkIntro.cs" />
     <Compile Include="Assets\Scripts\Story\EndStoryEnabler.cs" />
     <Compile Include="Assets\Scripts\Scenes\ExitDoors.cs" />
+    <Compile Include="Assets\Scripts\Story\TextStoryMovement.cs" />
     <Compile Include="Assets\Scripts\Traps&amp;Platforms\TrapDamage.cs" />
     <Compile Include="Assets\Scripts\Traps&amp;Platforms\TrapsWithMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
@@ -63,7 +64,6 @@
     <Compile Include="Assets\Scripts\Traps&amp;Platforms\TrapsCircles.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraShake.cs" />
     <Compile Include="Assets\Scripts\Story\StartStoryEnabler.cs" />
-    <Compile Include="Assets\Scripts\Story\TextStoryMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
