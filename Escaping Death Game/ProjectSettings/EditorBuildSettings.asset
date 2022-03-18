@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: d2d4509aff0025444886e56fe7208ad3
   - enabled: 1
+    path: Assets/Scenes/Loading Scene.unity
+    guid: dcd7824ed57de1e4888996636ae26029
+  - enabled: 1
     path: Assets/Scenes/Story_Start.unity
     guid: 08225a9ed4b41de43800422320c3c65c
+  - enabled: 1
+    path: Assets/Scenes/Loading Scene2.unity
+    guid: ea6e2c2706db2fd4d8e4657fc164f9c4
   - enabled: 1
     path: Assets/Scenes/Level 1 Treachery.unity
     guid: 49f8cd0d8cfe4c7479e07c2647af706d
@@ -39,6 +45,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 9 Limbo.unity
     guid: 9023310e35455a64ba4076d22f1100c0
   - enabled: 1
+    path: Assets/Scenes/Loading Scene3.unity
+    guid: 3859ab2ea76e68444a7f7a5dd1f68962
+  - enabled: 1
     path: Assets/Scenes/Story_End.unity
     guid: 2274bbdd5056f5247b440f6e6215c078
+  - enabled: 1
+    path: Assets/Scenes/Loading Scene4.unity
+    guid: 3e4199d3bf9ad56488b5974b66fbc7d5
   m_configObjects: {}

@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Traps&amp;Platforms\TrapsCircles.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraShake.cs" />
     <Compile Include="Assets\Scripts\Story\StartStoryEnabler.cs" />
+    <Compile Include="Assets\Scripts\Scenes\LoadingScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

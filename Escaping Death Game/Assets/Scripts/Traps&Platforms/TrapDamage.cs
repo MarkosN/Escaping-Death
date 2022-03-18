@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TrapDamage : MonoBehaviour // Traps won't do any real damage to the players only to "transform" them to start from the beginning or from the latest checkpoint (This is the game's traps punish variable)

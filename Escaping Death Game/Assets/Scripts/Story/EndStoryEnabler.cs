@@ -24,6 +24,6 @@ public class EndStoryEnabler : MonoBehaviour // End Story Manager
     IEnumerator ReturnToMenu() // After the end scene the player will be tranfered directly to the main menu of the game
     {
         yield return new WaitForSeconds(8.0f);
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Loading Scene4");
     }
 }
