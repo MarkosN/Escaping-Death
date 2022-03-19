@@ -24301,7 +24301,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19.9585, y: -523.9769}
+  m_AnchoredPosition: {x: -19.9585, y: -731}
   m_SizeDelta: {x: 897.624, y: 407.1014}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1173872001
@@ -24337,13 +24337,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The player becomes a cowboy on the Wild West era which was a notorious
-    gunslinger blessed by death but after years of being on the top the time came
-    where he died to a younger one. After the death saw what happened to his boy
-    he decided to give him a second chance. Death gives the opportunity for the cowboy
-    to resurrect from the hell by passing rooms that death designed complete with
-    traps which are inspired by Dante\u2019s Nine Circle of Hell. By the passing
-    of each level the player is closer to resurrect and return to the living world."
+  m_Text: Deep in the West, notorious gunslinger Wild Billy is gunned down by Gentle
+    Joe during an epic gunfight. Ready to be transported to hell to atone for his
+    crimes, Wild Billy is offered a deal by Death himself. He can have a second chance
+    in life as long as he is able to succeed in 9 hellish adventures in the underworld.
+    Help Wild Billy return to the Wild West and claim his position as the best gunslinger.
+    There is only one thing for him to do, escape Death!
 --- !u!222 &1173872002
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24513,7 +24512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e70fcb3587a1ebf4e9dfe96ccfa85140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeSceneTime: 25
+  changeSceneTime: 38
 --- !u!114 &1824363402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24527,7 +24526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textStory: {fileID: 1173871999}
-  textSpeed: 50
+  textSpeed: 55
 --- !u!1 &1890839341
 GameObject:
   m_ObjectHideFlags: 0
