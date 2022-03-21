@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ElevatorPlatform : MonoBehaviour // For the Elevator Platform
+public class ElevatorPlatform : MonoBehaviour // For the Elevator Platform (NOT USED)
 {
 	// The elevator platform will move continuously up in the world
 	private Vector2 startPosition;

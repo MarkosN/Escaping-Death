@@ -13,7 +13,7 @@ public class TrapsCircles : MonoBehaviour // Script responsible for the Circle T
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // Updating traps current position
         Vector2 currentPos = new Vector2(transform.position.x, transform.position.y);

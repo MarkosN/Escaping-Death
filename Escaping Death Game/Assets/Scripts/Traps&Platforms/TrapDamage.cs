@@ -7,9 +7,14 @@ public class TrapDamage : MonoBehaviour // Traps won't do any real damage to the
     private GameObject playerGO;
     public Rigidbody2D playerRB;
 
+    // Calling the Audio Manager Script
+    private AudioManager audioManager;
+
     void Start()
     {
         playerGO = GameObject.Find("Player"); // In order to assign it automatically in each
+
+        audioManager = AudioManager.GetAudioManager();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -20,6 +25,8 @@ public class TrapDamage : MonoBehaviour // Traps won't do any real damage to the
 
             playerRB.velocity = new Vector2(0, 0); // After the Player Respawns he Doesn't Inherit any Previous Values on X and Y Axis
             playerGO.transform.position = resetArea.transform.position; // Player will transform to the reset area
+
+            audioManager.TrapsSound();
         }
     }
 }

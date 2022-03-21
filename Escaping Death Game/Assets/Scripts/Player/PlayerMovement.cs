@@ -30,11 +30,19 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 	public ParticleSystem dashDustEffect; // Dash effect
 	public ParticleSystem flipDustEffect; // Flip effect
 
+	// Calling the Audio Manager Script
+	private AudioManager audioManager;
+
 	private void Awake()
 	{
 		player = GetComponent<Rigidbody2D>();
 	}
-	
+
+	void Start()
+	{
+		audioManager = AudioManager.GetAudioManager();
+	}
+
 	// Update is called once per frame
 	void Update () {
 
@@ -55,6 +63,7 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 				anim.SetBool("DashOn", false);
 				StartCoroutine(DisableJumpAnim());
 				JumpDustOn();
+				audioManager.JumpingSound();
 			}
 
 			else if (!grounded && dash == true) // The player double jumps
@@ -66,6 +75,7 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 					anim.SetBool("IsJumping", false);
 					StartCoroutine(DisableDashAnim());
 					DashDustOn();
+					audioManager.DashingSound();
 				}
 
 				else if (!faceRightSide)
@@ -75,6 +85,7 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 					anim.SetBool("IsJumping", false);
 					StartCoroutine(DisableDashAnim());
 					DashDustOn();
+					audioManager.DashingSound();
 				}
 				
 				grounded = false;

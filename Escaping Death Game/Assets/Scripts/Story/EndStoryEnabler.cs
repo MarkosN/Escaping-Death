@@ -16,14 +16,14 @@ public class EndStoryEnabler : MonoBehaviour // End Story Manager
 
     IEnumerator WakeUpCowboy() // Enable the Alive cowboy anmd disable the dead one
     {
-        yield return new WaitForSeconds(6.5f);
+        yield return new WaitForSeconds(13.2f);
         cowboyOld.SetActive(false);
         cowboyNew.SetActive(true);
     }
 
     IEnumerator ReturnToMenu() // After the end scene the player will be tranfered directly to the main menu of the game
     {
-        yield return new WaitForSeconds(8.0f);
+        yield return new WaitForSeconds(15.9f);
         SceneManager.LoadScene("Loading Scene4");
     }
 }

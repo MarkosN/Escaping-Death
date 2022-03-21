@@ -6,7 +6,7 @@ public class TextStoryMovement : MonoBehaviour // In order to control the speed 
     public float textSpeed; // Story's Text Speed
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         textStory.transform.Translate(Vector2.up * textSpeed * Time.deltaTime);  // Text Moves Up Continuously
     }
