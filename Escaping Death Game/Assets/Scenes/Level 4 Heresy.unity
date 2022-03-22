@@ -2058,6 +2058,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options Menu (Canvas)
       objectReference: {fileID: 0}
+    - target: {fileID: 4411638918495086329, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 477968343}
+    - target: {fileID: 4411638918495086329, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Resume
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
 --- !u!1 &405141010 stripped
@@ -2438,6 +2446,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &477968343 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5718070712353865362, guid: d095d5e223821b448af1660efc6f4b85, type: 3}
+  m_PrefabInstance: {fileID: 314505558}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ada4e83493b43b48aa50e7900000e7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &490487150
 PrefabInstance:
   m_ObjectHideFlags: 0
