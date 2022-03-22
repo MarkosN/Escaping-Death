@@ -9769,6 +9769,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &50482124 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5718070712353865362, guid: d095d5e223821b448af1660efc6f4b85, type: 3}
+  m_PrefabInstance: {fileID: 7626630409005363713}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50482122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ada4e83493b43b48aa50e7900000e7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &94716400
 GameObject:
   m_ObjectHideFlags: 0
@@ -10353,6 +10364,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &165687711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4411638917521627990, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
+  m_PrefabInstance: {fileID: 4411638916737431620}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &255858686 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2081498282659613590, guid: b3fa802f14db3c94d8209714863639ca, type: 3}
@@ -16692,6 +16708,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options Menu (Canvas)
       objectReference: {fileID: 0}
+    - target: {fileID: 4411638918453761123, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 107.57318
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411638918495086329, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 50482124}
+    - target: {fileID: 4411638918495086329, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Resume
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411638918495086329, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OptionsMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411638918495086329, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
 --- !u!1001 &7310779342276883892
@@ -16797,7 +16833,7 @@ PrefabInstance:
     - target: {fileID: 5718070712353865362, guid: d095d5e223821b448af1660efc6f4b85, type: 3}
       propertyPath: optionsMenuCanvas
       value: 
-      objectReference: {fileID: 826680086}
+      objectReference: {fileID: 165687711}
     - target: {fileID: 6597874741185609001, guid: d095d5e223821b448af1660efc6f4b85, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key0.b
       value: 0.9882353
@@ -17028,7 +17064,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8509737161276824224, guid: 189aac123ef3cdf4c9c46bdc4789104c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8509737161276824236, guid: 189aac123ef3cdf4c9c46bdc4789104c, type: 3}
       propertyPath: m_Pivot.x

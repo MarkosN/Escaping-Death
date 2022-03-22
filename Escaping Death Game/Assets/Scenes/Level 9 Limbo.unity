@@ -1315,6 +1315,10 @@ PrefabInstance:
       propertyPath: ColorModule.gradient.maxGradient.key0.r
       value: 0.16862746
       objectReference: {fileID: 0}
+    - target: {fileID: 5718070712353865362, guid: d095d5e223821b448af1660efc6f4b85, type: 3}
+      propertyPath: optionsMenuCanvas
+      value: 
+      objectReference: {fileID: 2095441594}
     - target: {fileID: 6597874741185609001, guid: d095d5e223821b448af1660efc6f4b85, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.key0.b
       value: 0.16862746
@@ -28002,6 +28006,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
+--- !u!1 &2095441594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4411638917521627990, guid: ae68b32063ab2e94e8efda02fe1708bd, type: 3}
+  m_PrefabInstance: {fileID: 2095441593}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2105371739
 GameObject:
   m_ObjectHideFlags: 0

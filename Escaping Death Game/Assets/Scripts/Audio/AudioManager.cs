@@ -15,7 +15,7 @@ public class AudioManager : MonoBehaviour
         inst = this;
     }
 
-    private AudioSource trapSound, jumpSound, dashSound, buttonSound; // All the Sounds Effects the game has on the main levels
+    private AudioSource trapSound, jumpSound, dashSound; // All the Sounds Effects the game has on the main levels
 
     void Start()
     {
@@ -33,10 +33,6 @@ public class AudioManager : MonoBehaviour
         dashSound = soundsList[2];
         dashSound.volume = 1.0f;
         SoundsSettings(dashSound);
-
-        buttonSound = soundsList[3];
-        buttonSound.volume = 1.0f;
-        SoundsSettings(buttonSound);
     }
 
     public void SoundsSettings(AudioSource current) // Sound Effects Settings
@@ -57,10 +53,5 @@ public class AudioManager : MonoBehaviour
     public void DashingSound() // Play Function for the Dash Sound Effect
     {
         dashSound.Play();
-    }
-
-    public void ButtonsSound() // Play Function for the Buttons Sound Effect
-    {
-        buttonSound.Play();
     }
 }
