@@ -7,7 +7,6 @@ ScriptsOnlyBuild:
     - DisableDarkIntro
     - EndStoryEnabler
     - ExitDoors
-    - KeepMainSounds
     - LoadingScene
     - MouseCursor
     - OptionsMenu
@@ -28,6 +27,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridBrushEditor
@@ -169,6 +169,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5110}
     - Class: 114
+      Script: {instanceID: 5562}
+    - Class: 114
       Script: {instanceID: 5718}
     - Class: 114
       Script: {instanceID: 6030}
@@ -301,6 +303,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4482}
     - Class: 114
       Script: {instanceID: 5110}
+    - Class: 114
+      Script: {instanceID: 5562}
     - Class: 114
       Script: {instanceID: 5718}
     - Class: 114
@@ -437,6 +441,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5110}
     - Class: 114
+      Script: {instanceID: 5562}
+    - Class: 114
       Script: {instanceID: 5718}
     - Class: 114
       Script: {instanceID: 6030}
@@ -567,6 +573,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4482}
     - Class: 114
       Script: {instanceID: 5110}
+    - Class: 114
+      Script: {instanceID: 5562}
     - Class: 114
       Script: {instanceID: 5718}
     - Class: 114
@@ -699,6 +707,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5110}
     - Class: 114
+      Script: {instanceID: 5562}
+    - Class: 114
       Script: {instanceID: 5718}
     - Class: 114
       Script: {instanceID: 6030}
@@ -827,6 +837,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4482}
     - Class: 114
       Script: {instanceID: 5110}
+    - Class: 114
+      Script: {instanceID: 5562}
     - Class: 114
       Script: {instanceID: 5718}
     - Class: 114
@@ -961,6 +973,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5110}
     - Class: 114
+      Script: {instanceID: 5562}
+    - Class: 114
       Script: {instanceID: 5718}
     - Class: 114
       Script: {instanceID: 6030}
@@ -1093,6 +1107,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4708}
     - Class: 114
       Script: {instanceID: 5110}
+    - Class: 114
+      Script: {instanceID: 5562}
     - Class: 114
       Script: {instanceID: 5718}
     - Class: 114
@@ -1229,6 +1245,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5110}
     - Class: 114
+      Script: {instanceID: 5562}
+    - Class: 114
       Script: {instanceID: 5718}
     - Class: 114
       Script: {instanceID: 6030}
@@ -1360,10 +1378,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -1381,8 +1395,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2136}
     - Class: 114
-      Script: {instanceID: 2290}
-    - Class: 114
       Script: {instanceID: 2734}
     - Class: 114
       Script: {instanceID: 2916}
@@ -1396,8 +1408,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4426}
     - Class: 114
       Script: {instanceID: 5110}
-    - Class: 114
-      Script: {instanceID: 5562}
     - Class: 114
       Script: {instanceID: 5980}
     - Class: 114
