@@ -14347,7 +14347,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7310779341773406224, guid: 35c85e3cc01b70d4996d8257fa84c166, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7310779341773406224, guid: 35c85e3cc01b70d4996d8257fa84c166, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16221,7 +16221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967152639695696357, guid: 900c8e68e09e5834eabe868028dde30f, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1967152639695696357, guid: 900c8e68e09e5834eabe868028dde30f, type: 3}
       propertyPath: m_LocalScale.x
@@ -16283,22 +16283,6 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 63c3bcf334094fa46b7a00b96af6818d, type: 3}
-    - target: {fileID: 1967152639695696359, guid: 900c8e68e09e5834eabe868028dde30f, type: 3}
-      propertyPath: m_Size.x
-      value: 0.58373064
-      objectReference: {fileID: 0}
-    - target: {fileID: 1967152639695696359, guid: 900c8e68e09e5834eabe868028dde30f, type: 3}
-      propertyPath: m_Size.y
-      value: 0.6136875
-      objectReference: {fileID: 0}
-    - target: {fileID: 1967152639695696359, guid: 900c8e68e09e5834eabe868028dde30f, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.0006213486
-      objectReference: {fileID: 0}
-    - target: {fileID: 1967152639695696359, guid: 900c8e68e09e5834eabe868028dde30f, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.0008509606
-      objectReference: {fileID: 0}
     - target: {fileID: 1967152639695696359, guid: 900c8e68e09e5834eabe868028dde30f, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 0.58
@@ -16739,7 +16723,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7310779341773406224, guid: 35c85e3cc01b70d4996d8257fa84c166, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7310779341773406224, guid: 35c85e3cc01b70d4996d8257fa84c166, type: 3}
       propertyPath: m_LocalPosition.x
