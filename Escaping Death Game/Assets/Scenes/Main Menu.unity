@@ -7399,8 +7399,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 146, y: 26.649}
-  m_SizeDelta: {x: 296.0986, y: 21.0915}
+  m_AnchoredPosition: {x: 146, y: -11.5518}
+  m_SizeDelta: {x: 296.0986, y: 97.4933}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363542008
 MonoBehaviour:
@@ -7435,7 +7435,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The assets were created using Aseprite.
+  m_Text: 'The assets were created using Aseprite.
+
+
+    The Font That the game uses
+    is called Boncegro.'
 --- !u!222 &1363542009
 CanvasRenderer:
   m_ObjectHideFlags: 0
