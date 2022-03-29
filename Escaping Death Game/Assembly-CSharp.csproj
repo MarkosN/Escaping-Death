@@ -64,12 +64,12 @@
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Traps&amp;Platforms\ElevatorPlatform.cs" />
     <Compile Include="Assets\Scripts\Traps&amp;Platforms\TrapsCircles.cs" />
+    <Compile Include="Assets\Scripts\UI\MouseCursor.cs" />
     <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraShake.cs" />
     <Compile Include="Assets\Scripts\Story\StartStoryEnabler.cs" />
     <Compile Include="Assets\Scripts\Scenes\LoadingScene.cs" />
     <Compile Include="Assets\Scripts\UI\OptionsMenu.cs" />
-    <Compile Include="Assets\Scripts\UI\MouseCursor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
