@@ -56,6 +56,7 @@
     <Compile Include="Assets\Scripts\UI\DisableDarkIntro.cs" />
     <Compile Include="Assets\Scripts\Audio\KeepMainSounds.cs" />
     <Compile Include="Assets\Scripts\Story\EndStoryEnabler.cs" />
+    <Compile Include="Assets\Scripts\Story\SkipStoryScenes.cs" />
     <Compile Include="Assets\Scripts\Scenes\ExitDoors.cs" />
     <Compile Include="Assets\Scripts\Story\TextStoryMovement.cs" />
     <Compile Include="Assets\Scripts\Traps&amp;Platforms\TrapDamage.cs" />
@@ -70,7 +71,7 @@
     <Compile Include="Assets\Scripts\Story\StartStoryEnabler.cs" />
     <Compile Include="Assets\Scripts\Scenes\LoadingScene.cs" />
     <Compile Include="Assets\Scripts\UI\OptionsMenu.cs" />
-    <Compile Include="Assets\Scripts\Story\SkipStoryScenes.cs" />
+    <Compile Include="Assets\Scripts\CheckpointUnlock.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
