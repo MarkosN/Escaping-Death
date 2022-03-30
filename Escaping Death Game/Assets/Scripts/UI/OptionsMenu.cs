@@ -13,7 +13,7 @@ public class OptionsMenu : MonoBehaviour // Options Menu Script and Enable or Di
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) // Pause Menu will Open and Close with the Same Button
+        if (Input.GetButtonDown("Options")) // Pause Menu will Open and Close with the Same Buttons
         {
             Pause();
         }
