@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Story\StartStoryEnabler.cs" />
     <Compile Include="Assets\Scripts\Scenes\LoadingScene.cs" />
     <Compile Include="Assets\Scripts\UI\OptionsMenu.cs" />
+    <Compile Include="Assets\Scripts\Story\SkipStoryScenes.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
