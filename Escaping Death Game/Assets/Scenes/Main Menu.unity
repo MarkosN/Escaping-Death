@@ -7377,7 +7377,7 @@ GameObject:
   - component: {fileID: 1363542009}
   - component: {fileID: 1363542008}
   m_Layer: 5
-  m_Name: Aseprite Credit Text
+  m_Name: Aseprite and Font Credits Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7399,8 +7399,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 146, y: -11.5518}
-  m_SizeDelta: {x: 296.0986, y: 97.4933}
+  m_AnchoredPosition: {x: 146, y: -6.4025}
+  m_SizeDelta: {x: 296.0986, y: 87.195}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363542008
 MonoBehaviour:
@@ -9098,7 +9098,11 @@ MonoBehaviour:
     (Horror Ambient Album - 082318).
 
 
-    -Daniel Gooding (Darkness and Demon Fields).'
+    -Daniel Gooding (Darkness and Demon Fields).
+
+
+    -Dustyroom
+    (FREE Casual Game SFX Pack).'
 --- !u!222 &1950086831
 CanvasRenderer:
   m_ObjectHideFlags: 0
