@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TrapsWithMovement : MonoBehaviour // For the Up/Down Blocks Traps, Up/Down Nails Traps, Moving Platforms and Left/Right Traps

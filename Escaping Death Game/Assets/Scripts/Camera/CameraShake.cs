@@ -1,8 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Cinemachine;
-using UnityEngine.Events;
 
 public class CameraShake : MonoBehaviour // This Script will Make the Camera Shake when the player contacts a trap 
 {

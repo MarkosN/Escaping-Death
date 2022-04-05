@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour // This script contains the player's complete movement system
@@ -120,7 +119,7 @@ public class PlayerMovement : MonoBehaviour // This script contains the player's
 		if (grounded || airControlling)
 		{
 			Vector3 targetVelocity = new Vector2(move * 10f, player.velocity.y); // Using target velocity to move the character
-			player.velocity = Vector3.SmoothDamp(player.velocity, targetVelocity, ref velocity, smoothMovement); //  Smoothing the target velocity
+			player.velocity = Vector3.SmoothDamp(player.velocity, targetVelocity, ref velocity, smoothMovement); //  Smoothing the target velocity (Used for player's acceleration and deceleration)
 
 			// Changing where the player looks to right
 			if (move > 0 && !faceRightSide)
